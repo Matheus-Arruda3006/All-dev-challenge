@@ -77,9 +77,34 @@ textarea:focus, input:focus{
  background: rgba(255, 255, 255, 0.16);
  border-style: hidden;
  color: #fff;
-
 }
+
 .profile{
     width: 100px;
     height: 50px;
+}
+
+/* =========== MENU-BAR =========== */
+
+.menu{
+    position: absolute;
+    left: 2.33%;
+    right: 8.33%;
+    top: 25.67%;
+    bottom: 16.67%
+}
+
+.selector svg{
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.selector a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.selector a:hover{
+    color: rgba(240, 181, 181, 0.333);
 }
