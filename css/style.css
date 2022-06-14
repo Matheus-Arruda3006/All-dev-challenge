@@ -307,3 +307,65 @@ textarea:focus, input:focus{
     order: 0;
     flex-grow: 0;
 }
+
+.personalizing{
+    width: 170px;
+    height: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 54px;
+    font-family: 'Nuosu SIL', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;   
+}
+
+.lang-selector select{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 272px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    border-style: hidden;
+    margin-bottom: 20px;
+}
+
+#lang option{
+    width: 80px;
+    height: 24px;
+    font-family: 'Nuosu SIL', serif;
+    color: (255, 255, 255, 0.16);
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.16);
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.empty-space input{
+    width: 256px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.save button{
+    margin-top: 28.57;
+    margin-left: 30.67%;
+    margin-bottom: 28.57%;
+    font-family: 'Nuosu SIL', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #051d3b;
+}
