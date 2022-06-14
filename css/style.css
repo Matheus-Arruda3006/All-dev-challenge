@@ -211,12 +211,12 @@ textarea:focus, input:focus{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 18.46px;
     color: #fff;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin-top: 15%;
+    margin-top: 7%;
 }
 
 
