@@ -107,4 +107,17 @@ textarea:focus, input:focus{
 
 .selector a:hover{
     color: rgba(240, 181, 181, 0.333);
+    text-decoration: underline;
+}
+
+ .menu h1{
+    width: 51px;
+    height: 12px;
+    text-transform: uppercase;
+    top: 128px;
+    left: 32px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #fff;
 }
