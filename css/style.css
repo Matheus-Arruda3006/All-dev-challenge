@@ -90,6 +90,8 @@ textarea:focus, input:focus{
 
 @import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
 
 
 
@@ -138,3 +140,84 @@ textarea:focus, input:focus{
     line-height: 18px;
     letter-spacing: 0.4em;
 }
+
+/* =========== TEXT BOX =========== */
+
+.text-container{
+    width: 752px;
+    background-color: #fff;
+    height: 366px;
+    margin-top: 128px;
+    margin-left: 344px;
+    border-radius: 8px;
+    padding: 32px;
+    gap: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background: #6bd1ff;
+}
+
+.text-editor{
+    width: 688px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+    box-shadow: 0px 16px 24px rgba(0,0,0,0.24);
+    background: #141414;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.small-dot-1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    margin-top: 16px;
+    background: #ff5f56;
+    border-radius: 50%;
+}
+.small-dot-2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: 36px;
+    margin-top: 16px;
+    background: #FFBD2E;
+    border-radius: 50%;
+}
+
+.small-dot-3{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: 56px;
+    margin-top: 16px;
+    background: #27C93F;
+    border-radius: 50%;
+}
+
+.editor-container p{
+    width: 656px;
+    height: 234px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 15%;
+}
+
+
+
