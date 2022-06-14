@@ -86,6 +86,15 @@ textarea:focus, input:focus{
 
 /* =========== MENU-BAR =========== */
 
+/* ===========FONTS=========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+
+
+
+/* ===========FONTS=========== */
+
 .menu{
     position: absolute;
     left: 2.33%;
@@ -103,6 +112,11 @@ textarea:focus, input:focus{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+    font-family: 'Nuosu SIL', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
 }
 
 .selector a:hover{
@@ -118,6 +132,9 @@ textarea:focus, input:focus{
     left: 32px;
     margin-bottom: 25px;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: 'Nuosu SIL', serif;
     color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
 }
