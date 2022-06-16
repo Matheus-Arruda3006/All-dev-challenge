@@ -79,6 +79,20 @@ textarea:focus, input:focus{
  color: #fff;
 }
 
+.search-field::placeholder{
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    width: 150px;
+    margin-top: 16px;
+    opacity: 64%;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+}
+
 .profile{
     width: 100px;
     height: 50px;
@@ -306,6 +320,7 @@ textarea:focus, input:focus{
     flex: none;
     order: 0;
     flex-grow: 0;
+    box-sizing: border-box;
 }
 
 .personalizing{
@@ -344,7 +359,7 @@ textarea:focus, input:focus{
     width: 80px;
     height: 24px;
     font-family: 'Nuosu SIL', serif;
-    color: (255, 255, 255, 0.16);
+    color: #6bd1ff;
     font-style: normal;
     background: rgba(255, 255, 255, 0.16);
     overflow: hidden;
@@ -371,4 +386,25 @@ textarea:focus, input:focus{
     text-align: center;
     color: #051d3b;
     border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(18, 83, 248);
+}
+
+.add-syntax-highlight button{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 340px;
+    width: 752px;
+    height: 46px;
+    background: rgba(80, 129, 251, 0.08);
+    color: #6bd1ff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.add-syntax-highlight button:hover{
+    background: rgba(30, 92, 248, 0.08);
 }
