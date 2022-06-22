@@ -490,18 +490,35 @@ textarea:focus, input:focus{
 
 /* =========== SOCIAL-PART =========== */
 
-.social-container{
-    width: 472px;
-    height: 32px;
+.social-container .container-title{
     margin-left: 15px;
-    font-family: 'Nuosu SIL', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 32px;
-    color: #fff;
     margin-top: 30px;
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.container-title h1{
+    width: 472px;
+    height: 32px;
+    font-family: 'Nuosu SIL', serif;
+    font-weight: 700;
+    font-size: 21px;
+    font-style: normal;
+    line-height: 31.5px;
+    color: rgba(255, 255, 255, 1);
+    color: #fff;
+}
+
+.description-proj{
+    width: 472px;
+    height: 24px;
+    font-family: 'Nuosu SIL', serif;
+    font-style: normal;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.8;
 }
