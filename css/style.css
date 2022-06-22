@@ -522,3 +522,16 @@ textarea:focus, input:focus{
     color: #fff;
     opacity: 0.8;
 }
+
+.social-interactions{
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+.social-interactions svg{
+    color: #fff;
+    margin: 5px;
+}
+
