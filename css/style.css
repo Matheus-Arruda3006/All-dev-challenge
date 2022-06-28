@@ -534,4 +534,34 @@ textarea:focus, input:focus{
     color: #fff;
     margin: 5px;
 }
+.social-interactions .comments{
+    margin-left: 15px;
+}
 
+.comment-count, .like-count{
+    color: #6bd1ff;
+    margin-top: 5px;
+}
+
+.prof-pic img{
+    width: 100px;
+    height: 50px;
+    margin-top: -9px; 
+    margin-right: 10px;  
+}
+
+.text-container-c-1{
+    width: 520px;
+    height: 385px;
+    margin-top: 128px;
+    margin-left: 894px;
+    border-radius: 8px;
+    padding: 32px;
+    gap: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background: rgba(154, 255, 107, 1);
+}

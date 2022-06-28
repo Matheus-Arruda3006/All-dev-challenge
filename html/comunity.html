@@ -37,6 +37,59 @@
                     Comunidade</a></p>
         </div>
 
+        <div class="text-container-c-1">
+            <div class="text-editor-comunity">
+                <div class="small-dot-1-c"></div>
+                
+                <div class="small-dot-2-c"></div>
+                
+                <div class="small-dot-3-c"></div>
+
+                <div class="editor-container-comunity">
+                    <p>
+                        const pluckDeep = key => obj => key.split('.').reduce((accum, key) => <br> accum[key], obj) <br> <br>
+    
+                    const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), <br> res) 
+                    <br>
+    
+                    <br> const unfold = (f, seed) => { <br>
+                    const go = (f, seed, acc) => { <br>
+                     const res = f(seed) <br>
+                    return res ? go(f, res[1], acc.concat([res[0]])) : acc <br>
+                     }
+                     return go(f, seed, []) <br>
+                    }
+                    </p>
+            </div> 
+            </div>
+            <div class="social-container">
+                <div class="container-title">
+                    <h1>Título do projeto</h1>
+                </div>
+                <div class="description-proj">
+                    <p>Essa é a descrição do seu projeto.</p>
+                </div>
+                <div class="social-interactions">
+                    <div class="likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                          </svg>
+                    </div>
+                    <p class="like-count">50</p>
+                    <div class="comments">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/> 
+                          </svg>
+                    </div>
+                    <p class="comment-count">8</p>
+
+                    <div class="prof-pic">
+                        <img src="../img/profile-pic.png" class="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+       
         <div class="text-container-c">
             <div class="text-editor-comunity">
                 <div class="small-dot-1-c"></div>
@@ -75,15 +128,20 @@
                             <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                           </svg>
                     </div>
+                    <p class="like-count">50</p>
                     <div class="comments">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
-                            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/> 
                           </svg>
+                    </div>
+                    <p class="comment-count">8</p>
+
+                    <div class="prof-pic">
+                        <img src="../img/profile-pic.png" class="pic">
                     </div>
                 </div>
             </div>
         </div>
-       
     </main>
 </body>
 </html>
